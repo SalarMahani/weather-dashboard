@@ -195,4 +195,4 @@ OpenWeather:
 Chart component then renders the data visually.
 
 ## 📄 License
-This project is for assessment and educational use.
+free for all...
