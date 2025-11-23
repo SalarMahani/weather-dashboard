@@ -1,7 +1,7 @@
 # 🌤️ Weather Dashboard App
 *A multilingual, theme-aware, responsive weather dashboard built with React, TypeScript, MUI, i18next, and OpenWeather APIs.*
 
-👉 **[https://weather-dashboard-kappa-opal.vercel.app/dashboard](#)**  
+👉 **[https://weather-dashboard-hazel-two.vercel.app/login](#)**  
 
 ---
 
