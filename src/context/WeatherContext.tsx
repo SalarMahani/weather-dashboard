@@ -195,21 +195,31 @@ function formatCityCurrentTime(timezoneOffset: number): Dates {
 // Fetch station ID
 // -----------------------------
 
-async function fetchStationId(lat: number, lon: number) {
+export async function fetchStationId(lat: number, lon: number) {
   const url = 'https://meteostat.p.rapidapi.com/stations/nearby'
 
-  const res = await axios.get(url, {
-    params: { lat, lon },
-    headers: {
-      'x-rapidapi-key': import.meta.env.VITE_RAPIDAPI_KEY,
-      'x-rapidapi-host': 'meteostat.p.rapidapi.com',
-    },
-  })
+  try {
+    const res = await axios.get(url, {
+      params: {
+        lat,
+        lon,
+        limit: 1,
+        radius: 100000,
+      },
+      headers: {
+        'X-RapidAPI-Key': import.meta.env.VITE_RAPIDAPI_KEY,
+        'X-RapidAPI-Host': 'meteostat.p.rapidapi.com',
+      },
+    })
 
-  const data = res.data
-  if (!data?.data?.length) return null
+    const data = res.data
+    if (!data?.data?.length) return null
 
-  return data.data[0].id
+    return data.data[0].id
+  } catch (error) {
+    console.error('Error fetching station id:', error)
+    return null
+  }
 }
 
 // -----------------------------
