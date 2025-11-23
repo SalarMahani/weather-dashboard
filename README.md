@@ -173,7 +173,7 @@ src/
 │ └── ThemeModeContext.tsx
 ├── pages/
 │ ├── LoginPage.tsx
-│ └── Dashboard.tsx
+│ └── DashboardPage.tsx
 ├── utils/
 │ └── i18n/
 │ └── Weather/
@@ -192,23 +192,26 @@ src/
 ## ⚙️ Installation
 
 ### 1. Clone the repository
+
 ```bash
-git clone https://github.com/your-username/weather-dashb
+git clone https://github.com/SalarMahani/weather-dashboard
 ```
 2. Install dependencies
+   
 ```bash
-2. Install dependencies
+2. npm install
 ```
 3. Add environment variables
+   
 ```bash
 VITE_OPENWEATHER_API_KEY=your_api_key_here
 VITE_RAPIDAPI_KEY=your_rapidapi_key_here
 ```
 4. Start the development server
+   
 ```bash
 npm run dev
 ```
-
 
 
 ## 📄 License
