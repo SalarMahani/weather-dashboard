@@ -2,7 +2,7 @@
 *A multilingual, theme-aware, responsive weather dashboard built with React, TypeScript, MUI, i18next, and OpenWeather APIs.*
 
 #### ⚠️ Important Note:
-This project uses Meteostat api forFetches the last 12 months of average temperatures.
+This project uses Meteostat api for Fetches the last 12 months of average temperatures.
 In some countries, access to certain Meteostat APIs may be restricted. If you face issues during seeing the Months Weather chart, you may need to use a VPN to bypass regional limitations.
 
 👉 [https://weather-dashboard-lime-phi.vercel.app/dashboard]
