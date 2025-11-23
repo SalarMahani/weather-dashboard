@@ -1,8 +1,7 @@
 # 🌤️ Weather Dashboard App
 *A multilingual, theme-aware, responsive weather dashboard built with React, TypeScript, MUI, i18next, and OpenWeather APIs.*
 
-👉 **[LIVE DEMO — Coming Soon](#)**  
-👉 **[GitHub Repository](#)**
+👉 **[https://weather-dashboard-kappa-opal.vercel.app/dashboard](#)**  
 
 ---
 
@@ -196,4 +195,4 @@ OpenWeather:
 Chart component then renders the data visually.
 
 ## 📄 License
-This project is for assessment and educational use.
+free for all...
